@@ -25,7 +25,7 @@ if choose == 'hard':
 while answer != number:
     
     print(f"you have {attempts} attempts remaining to guess the number")
-    answer = int(input("guess the number: "))
+    answers = int(input("guess the number: "))
 
     if answer > number:
         print("to high")
@@ -36,4 +36,4 @@ while answer != number:
         print("you do not go it")
         break
 if answer == number:
-    print(f"you got it the answer is {answer}")
+    print(f"you got it the answer is {answers}")

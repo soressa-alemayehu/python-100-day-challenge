@@ -29,7 +29,7 @@ for op in operations:
 while should_continue:
     operation_symbol = input("pick an operation: ")
 
-    number2 = int(input("\ninput number: "))
+    number2 = int(input("\n input number: "))
 
     calculation_function = operations[operation_symbol]
     answer = calculation_function(number1, number2)

@@ -58,7 +58,7 @@ def check_transaction(payment, cost):
         profit += cost
         return True
     else:
-        print("Sorry that's not enough money. Money refunded.")
+        print("Sorry that's not enough money. Money refunded. ")
         return False
 
 def make_coffe(drink_name, order_items):

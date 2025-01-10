@@ -3,7 +3,7 @@ from random import choice
 
 
 
-colors = ['red', 'blue', 'green', 'brown', 'orange']
+colors = ['red', 'blue', 'green', 'brown', 'orange' ]
 tim = Turtle()
 
 n = 3

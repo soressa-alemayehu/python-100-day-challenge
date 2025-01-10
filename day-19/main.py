@@ -11,7 +11,7 @@ turtle_list = []
 
 n = 0
 for color in colors:
-    new_turtle = Turtle("turtle")
+    new_turtle = Turtle("turtle ")
     new_turtle.color(color)
     new_turtle.penup()
     new_turtle.goto(-230, -100 + n)
