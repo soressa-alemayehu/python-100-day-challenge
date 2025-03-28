@@ -1,0 +1,2 @@
+tim.penup()
+tim.hideturtle()
